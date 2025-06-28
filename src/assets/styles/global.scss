@@ -1,0 +1,55 @@
+@font-face {
+  font-family: HarmonyOS Sans SC;
+  src: url('../font/HarmonyOS_Sans_SC_Regular.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 14px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+img {
+  border: 0 none;
+}
+
+input,
+button {
+  border: 0 none;
+  outline-style: none;
+}
+
+/*修改滚动条样式*/
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  /**/
+}
+*::-webkit-scrollbar-track {
+  background: rgb(239, 239, 239);
+  border-radius: 2px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #d8d8d8;
+  border-radius: 10px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: #d8d8d8;
+}
+*::-webkit-scrollbar-corner {
+  background: rgb(239, 239, 239);
+}
+
+.ant-spin-container::after{
+  background-color: transparent !important;
+}

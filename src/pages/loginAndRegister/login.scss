@@ -1,0 +1,185 @@
+.loginPage{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-image: url('./img/loginBackgroundImage.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0 120px;
+
+    .formContainer{
+        min-width: 480px;
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        gap: 20px;
+        border-radius: 14px;
+        background: #FFFFFF;
+        overflow: auto;
+        &::-webkit-scrollbar{
+            width: 0;
+            height: 0;
+        }
+
+        .registerHeader{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 16px;
+            padding-bottom: 8px;
+            color:#98A2B3;
+            gap: 20px;
+            .title{
+                color:#1F2037;
+                font-size:20px;
+                font-weight: 500;
+            }
+            .ant-btn{
+                font-size: 16px;
+            }
+        }
+        .waxberry-type{
+            display: flex;
+            align-items: center;
+            .type{
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                font-size: 14px;
+                font-weight: 500;
+                color: #98A2B3;
+                padding: 12px;
+            }
+            .type-active{
+                color: #1F2037;
+                border-bottom: 2px solid #5A4BFF;
+            }
+            svg{
+                margin-right: 8px;
+            }
+        }
+        .protocolNotice{
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            .ant-btn {
+                font-size: 14px;
+                padding:0 6px;
+                &:hover {
+                    color: rgba(0, 0, 0, 0.88);
+                    background: rgba(0, 0, 0, 0);
+                }
+
+            }
+        }
+        .ant-input-outlined{
+            height:40px;
+            background-color:#F4F5FA ;
+            border-color: #F4F5FA;
+        }
+        .ant-form-item{
+            margin-bottom: 16px;
+        }
+
+        .ant-input-group-addon {
+            background-color:#F4F5FA ;
+            border: 0 solid #d9d9d9;
+            .ant-btn {
+                font-size: 14px;
+
+                &:hover {
+                    color: rgba(0, 0, 0, 0.88);
+                    background: rgba(0, 0, 0, 0);
+                }
+            }
+            .ant-btn-variant-text:disabled{
+                color:#98A2B3
+            }
+        }
+        .ant-btn-variant-text{
+            color:#5A4BFF;
+        }
+        .ant-btn {
+            font-size: 18px;
+        }
+        .ant-form-item-control-input-content > .ant-input{
+            height:40px
+        }
+
+
+        .tip{
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            color: #86909C;
+            background: #EDF1FF;
+            padding: 4px 5px;
+            border-radius: 4px;
+        }
+
+    }
+
+    .successContainer{
+        width: 580px;
+        height: 552px;
+        padding: 64px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        background: #FFFFFF;
+        border-radius: 14px;
+
+        .title{
+            font-size: 20px;
+            font-weight: 500;
+            color: #1F2037;
+        }
+        .desc{
+            text-align: center;
+            font-size: 16px;
+            color: #98A2B3;
+        }
+    }
+
+    .help{
+        position: absolute;
+        right: 40px;
+        bottom: 40px;
+        &:hover .help-info{
+            display: flex;
+        }
+        .help-info{
+            position: absolute;
+            right: 10px;
+            bottom: 80px;
+
+            display: none;
+            padding: 24px 16px;
+            gap: 16px;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 8px;
+            border: 1px solid #6261AF;
+            backdrop-filter: blur(20px);
+            box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+            background: linear-gradient(157deg, rgba(66, 70, 158, 0.63) 15%, rgba(66, 70, 158, 0.35) 88%);
+
+            .info{
+                color: #FFFFFF;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                span{
+                    text-align: center;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+
+}
