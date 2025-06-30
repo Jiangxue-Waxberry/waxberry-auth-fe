@@ -50,7 +50,7 @@
 
 1. 克隆项目：
 ```bash
-git clone https://gitee.com/jiangxue-waxberry/waxberry-auth-fe.git
+git clone https://github.com/Jiangxue-Waxberry/waxberry-auth-fe.git
 cd waxberry-auth-fe
 ```
 
