@@ -50,7 +50,7 @@ A modern React-based user authentication frontend system providing complete logi
 
 1. Clone the repository:
 ```bash
-git clone https://gitee.com/jiangxue-waxberry/waxberry-auth-fe.git
+git clone https://github.com/Jiangxue-Waxberry/waxberry-auth-fe.git
 cd waxberry-auth-fe
 ```
 
