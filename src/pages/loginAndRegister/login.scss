@@ -146,40 +146,4 @@
         }
     }
 
-    .help{
-        position: absolute;
-        right: 40px;
-        bottom: 40px;
-        &:hover .help-info{
-            display: flex;
-        }
-        .help-info{
-            position: absolute;
-            right: 10px;
-            bottom: 80px;
-
-            display: none;
-            padding: 24px 16px;
-            gap: 16px;
-            flex-direction: column;
-            align-items: center;
-            border-radius: 8px;
-            border: 1px solid #6261AF;
-            backdrop-filter: blur(20px);
-            box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
-            background: linear-gradient(157deg, rgba(66, 70, 158, 0.63) 15%, rgba(66, 70, 158, 0.35) 88%);
-
-            .info{
-                color: #FFFFFF;
-                display: flex;
-                flex-direction: column;
-                gap: 5px;
-                span{
-                    text-align: center;
-                    white-space: nowrap;
-                }
-            }
-        }
-    }
-
 }

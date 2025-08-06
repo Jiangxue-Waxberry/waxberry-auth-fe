@@ -1,3 +1,5 @@
+import RegisterSuccess from "../../pages/loginAndRegister/img/registerSuccess.png";
+
 export default {
     translation: {
         login:{
@@ -55,7 +57,7 @@ export default {
             creditCode: '统一社会信用代码',
             enterCreditCode: '请输入18位统一社会信用代码',
             companyAdminUsername: '企业管理员用户名',
-            registerSuccess: '信息填写成功，待审核！',
+            registerSuccess: '信息填写成功！',
             registerSuccessDesc: '信息填写后，需要进行注册审核。为保障账号安全，请按规范提交信息，审核结果将在 1 个工作日内以短信的方式进行反馈。',
             collegeTip: '使用高校信息注册可获得免费创建10个纳豆，请使用真实信息填写',
             enterpriseTip: '使用企业信息注册可获得免费创建10个纳豆，请使用真实信息填写',

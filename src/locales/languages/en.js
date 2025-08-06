@@ -55,7 +55,7 @@ export default {
             creditCode: 'Unified Social Credit Code',
             enterCreditCode: 'Please enter 18-digit unified social credit code',
             companyAdminUsername: 'Company Admin Username',
-            registerSuccess: 'Information filled in successfully, pending review!',
+            registerSuccess: 'Information submitted successfully!',
             registerSuccessDesc: 'After filling in the information, registration review is required. To ensure account security, please submit your information according to the guidelines. The review result will be notified via SMS within 1 working day.',
             userDisabled: 'After 5 consecutive failed login attempts, you can retry after 1 hour.',
             rememberErr: 'Please read and agree before proceeding.'
